@@ -69,7 +69,7 @@ Write a program that prints all the names defined by the compiled module ['hidde
 ### 5. Everything can be imported
 Write a program that imports the variable `a` from the file `variable_load_5.py` and prints its value.
 
-* You are not allowed to use * for importing or `__import__`
+* You are not allowed to use `*` for importing or `__import__`
 * Your code should not be executed when imported
 
 
@@ -80,7 +80,7 @@ Write a program that imports all functions from the file `calculator_1.py` and h
 
 * Usage: `./100-my_calculator.py a operator b`
 - If the number of arguments is not 3, your program has to:
-     * print 'Usage: ./100-my_calculator.py <a> <operator> <b>' followed with a new line
+     * print `Usage: ./100-my_calculator.py <a> <operator> <b>` followed with a new line
      * exit with the value `1`
 - `operator` can be:
      * `+` for addition
@@ -100,7 +100,7 @@ exit with the value `1`
 Write a program that prints `#pythoniscool`, followed by a new line, in the standard output.
 
 * Your program should be maximum 2 lines long
-* You are not allowed to use `print` or `eval` or `open` or `import sys` in your file `101-easy_print.py'
+* You are not allowed to use `print` or `eval` or `open` or `import sys` in your file `101-easy_print.py`
 
 
 ### 8. ByteCode -> Python #3
