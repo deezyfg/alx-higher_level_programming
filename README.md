@@ -17,3 +17,7 @@ Introduction to Python programming with basic "Hello, World!" examples.
 ### 0x01-python-if_else_loops_functions
 
 Concepts related to conditional statements (if-else), loops, and functions in Python.
+
+###  0x02-python-import_modules
+
+This project explores key concepts of importing modules in Python, including tasks like importing functions from files, dynamic script handling, and working with Python modules.
