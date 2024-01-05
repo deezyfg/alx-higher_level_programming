@@ -4,6 +4,7 @@ This project focuses on Python data structures, specifically lists and tuples. B
 
 ## Mandatory Tasks
 
+
 ### 0. Print a list of integers
 Write a function that prints all integers of a list.
 
@@ -23,6 +24,7 @@ Write a function that retrieves an element from a list like in C.
 * If `idx` is out of range (> of number of element in `my_list`), the function should return `None`
 * You are not allowed to import any module
 * You are not allowed to use `try/except`
+
 
 ### 2. Replace element
 Write a function that replaces an element of a list at a specific position (like in C).
@@ -44,6 +46,7 @@ Write a function that prints all integers of a list, in reverse order.
 * You are not allowed to cast integers into strings
 * You have to use `str.format()` to print integers
 
+
 ### 4. Replace in a copy
 Write a function that replaces an element in a list at a specific position without modifying the original list (like in C).
 
@@ -53,6 +56,7 @@ Write a function that replaces an element in a list at a specific position witho
 * You are not allowed to import any module
 * You are not allowed to use `try/except`
 
+
 ### 5. Can you C me now?
 Write a function that removes all characters `c` and `C` from a string.
 
@@ -60,6 +64,7 @@ Write a function that removes all characters `c` and `C` from a string.
 * The function should return the new string
 * You are not allowed to import any module
 * You are not allowed to use `str.replace()`
+
 
 ### 6. Lists of lists = Matrix
 Write a function that prints a matrix of integers.
@@ -70,6 +75,7 @@ Write a function that prints a matrix of integers.
 * You can assume that the list only contains integers
 * You are not allowed to cast integers into strings
 * You have to use `str.format()` to print integers
+
 
 ### 7. Tuples addition
 Write a function that adds 2 tuples.
@@ -91,6 +97,7 @@ Write a function that returns a tuple with the length of a string and its first 
 * If the sentence is empty, the first character should be equal to `None`
 * You are not allowed to import any module
 
+
 ### 9. Find the max
 Write a function that finds the biggest integer of a list.
 
@@ -100,6 +107,7 @@ Write a function that finds the biggest integer of a list.
 * You are not allowed to import any module
 * You are not allowed to use the builtin `max()`
 
+
 ### 10. Only by 2
 Write a function that finds all multiples of 2 in a list.
 
@@ -107,6 +115,7 @@ Write a function that finds all multiples of 2 in a list.
 * Return a new list with `True` or `False`, depending on whether the integer at the same position in the original list is a multiple of 2
 * The new list should have the same size as the original list
 * You are not allowed to import any module
+
 
 ### 11. Delete at
 Write a function that deletes the item at a specific position in a list.
@@ -116,12 +125,14 @@ Write a function that deletes the item at a specific position in a list.
 * You are not allowed to use `pop()`
 * You are not allowed to import any module
 
+
 ### 12. Switch
 Complete the source code in order to switch value of `a` and `b`
 
 * You can find the source code [here](https://github.com/alx-tools/0x03.py/blob/master/12-switch_py)
 * Your code should be inserted where the comment is (line 4)
 * Your program should be exactly 5 lines long
+
 
 ### 13. Linked list palindrome
 **Technical interview preparation:**
@@ -137,6 +148,7 @@ Write a function in C that checks if a singly linked list is a palindrome.
 
 
 ## Advaned Task
+
 
 ### 14. CPython #0: Python lists
 CPython is the reference implementation of the Python programming language. Written in C, CPython is the default and most widely used implementation of the language.
