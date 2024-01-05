@@ -152,7 +152,7 @@ Create a C function that prints some basic info about Python lists.
 * Your shared library will be compiled with this command line: `gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c`
 * OS: `Ubuntu 14.04 LTS`
 * Start by reading:
-       - listobject.h
-       - object.h
-       - [Common Object Structures](https://docs.python.org/3.4/c-api/structures.html)
-       - [List Objects](https://docs.python.org/3.4/c-api/list.html)
+  - listobject.h
+  - object.h
+  - [Common Object Structures](https://docs.python.org/3.4/c-api/structures.html)
+  - [List Objects](https://docs.python.org/3.4/c-api/list.html)
