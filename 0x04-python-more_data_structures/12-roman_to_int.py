@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 def roman_to_int(roman_string):
     if not roman_string or type(roman_string) != str:
         return 0
@@ -8,5 +7,5 @@ def roman_to_int(roman_string):
     result = 0
     for roman in reversed(roman_string):
         decimal = digits[roman]
-        total += decimal if total < decimal * 5 else -decimal
+        result += decimal if result < decimal * 5 else -decimal
     return result
