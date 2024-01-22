@@ -1,23 +1,21 @@
 #!/usr/bin/python3
 
 def safe_print_list(my_list=[], x=0):
-    """
-    Safely prints elements from a list up to the specified index.
+    """Print x elememts of a list.
 
     Args:
-        my_list (list): The list to be printed.
-        x (int): The index up to which elements should be printed.
+        my_list (list): The list to print elements from.
+        x (int): The number of elements of my_list to print.
 
     Returns:
-        int: Total number of elements successfully printed.
+        The number of elements printed.
     """
-
     total = 0
     for i in range(x):
         try:
-            print(f"{my_list[i]}", end="")
+            print("{}".format(my_list[i]), end="")
             total += 1
         except IndexError:
             break
     print("")
-    return(total)
+    return (total)
