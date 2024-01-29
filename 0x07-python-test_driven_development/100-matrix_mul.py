@@ -1,9 +1,3 @@
-#!/usr/bin/python3
-"""
-Module defining a function for matrix multiplication.
-"""
-
-
 def matrix_mul(m_a, m_b):
     """ Function that multiplies two matrices.
 
@@ -57,14 +51,14 @@ def matrix_mul(m_a, m_b):
 
     for elems in m_a:
         if length != 0 and length != len(elems):
-            raise TypeError("each row of m_a must be of the same size")
+            raise TypeError("each row of m_a must should be of the same size")
         length = len(elems)
 
     length = 0
 
     for elems in m_b:
         if length != 0 and length != len(elems):
-            raise TypeError("each row of m_b must be of the same size")
+            raise TypeError("each row of m_b must should be of the same size")
         length = len(elems)
 
     if len(m_a[0]) != len(m_b):
