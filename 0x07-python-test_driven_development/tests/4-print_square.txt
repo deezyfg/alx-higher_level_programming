@@ -1,54 +1,57 @@
-The ``3-say_my_name`` module
+The ``4-print_square`` module
 ============================
 
-Using ``say_my_name``
+Using ``print_square``
 ---------------------
 
 Importing function from the module:
 
-    >>> say_my_name = __import__('3-say_my_name').say_my_name
+    >>> print_square = __import__('4-print_square').print_square
 
-Passing first_name and last_name correctly
+Printing a square with a size of 5
 
-    >>> say_my_name("Betty", "Holberton")
-    My name is Betty Holberton
+    >>> print_square(5)
+    #####
+    #####
+    #####
+    #####
+    #####
 
-Passing first_name and last_name correctly 2
+Passing 0 as the size of the square
 
-    >>> say_my_name("Luis")
-    My name is Luis 
+    >>> print_square(0)
 
-Passing None as the last_name
+Passing a float number as the size of the square
 
-    >>> say_my_name("John", None)
+    >>> print_square(1.0)
     Traceback (most recent call last):
     	      ...
-    TypeError: last_name must be a string
+    TypeError: size must be an integer
 
-Passing None as the first_name
+Passing a string as the size of the square
 
-    >>> say_my_name(None)
+    >>> print_square('2')
     Traceback (most recent call last):
     	      ...
-    TypeError: first_name must be a string
+    TypeError: size must be an integer
 
-Passing a number as the first_name
+Passing a negative number as the size of the square
 
-    >>> say_my_name(1)
+    >>> print_square(-2)
+    Traceback (most recent call last):
+    	     ...
+    ValueError: size must be >= 0
+
+Passing None as the size of the square
+
+    >>> print_square(None)
     Traceback (most recent call last):
     	      ...
-    TypeError: first_name must be a string
+    TypeError: size must be an integer
 
-Passing a number as the last_name
+Missing argument
 
-    >>> say_my_name("Betty", 0)
-    Traceback (most recent call last):
-    	      ...
-    TypeError: last_name must be a string
-
-Missing two arguments
-
-    >>> say_my_name()
-    Traceback (most recent call last):
-    	      ...
-    TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+   >>> print_square()
+   Traceback (most recent call last):
+   	     ...
+   TypeError: print_square() missing 1 required positional argument: 'size'
