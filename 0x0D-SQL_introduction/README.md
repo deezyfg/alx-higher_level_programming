@@ -86,13 +86,17 @@ mysql>
 mysql> quit
 Bye
 $
-Use “container-on-demand” to run MySQL
-In the container, credentials are root/root
+```
 
-Ask for container Ubuntu 20.04
-Connect via SSH
-OR connect via the Web terminal
-In the container, you should start MySQL before playing with it:
+### Use “container-on-demand” to run MySQL
+
+**In the container, credentials are** `root/root`
+
+- Ask for container Ubuntu 20.04
+- Connect via SSH
+- OR connect via the Web terminal
+- In the container, you should start MySQL before playing with it:
+```
 $ service mysql start                                                   
  * Starting MySQL database server mysqld 
 $
@@ -104,8 +108,7 @@ performance_schema
 sys                      
 $
 ```
-In the container, credentials are `root/root`
-
+**In the container, credentials are** `root/root`
 
 ## Tasks Overview
 
