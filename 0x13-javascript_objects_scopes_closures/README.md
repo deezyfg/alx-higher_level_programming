@@ -112,6 +112,13 @@ semistandard  *.js
 
 This command will inspect all JavaScript files in the current directory for compliance with the semi-standard coding style.
 
+### How To Automatically Fix Code In Accordance To Semistandard style guide
+
+Execute the following command:
+```semistandard --fix```
+
+`semistandard --fix` is a command used in JavaScript development with the Semistandard style guide. It automatically applies fixes to your code according to the rules of the Semistandard style guide, correcting issues like missing semicolons and other stylistic inconsistencies.
+
 --- 
 
 # Outlined Project Tasks
