@@ -525,7 +525,7 @@ guillaume@ubuntu:~/0x0F$
 
 **File:** [4-cities_by_state.py](4-cities_by_state.py)
  
-5. All cities by state
+### 5. All cities by state
 
 Write a script that takes in the name of a state as an argument and lists all `cities` of that state, using the database `hbtn_0e_4_usa`
 
